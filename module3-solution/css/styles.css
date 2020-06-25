@@ -29,6 +29,9 @@
 
 
 
+  html{
+    overflow: auto;
+  }
   * {
     box-sizing: border-box;
     overflow: hidden;
@@ -50,7 +53,7 @@
     background-color:lightgray; 
     margin:10px;
     cursor:pointer;
-    height:150px;
+    height: unset;
   }
 
   
@@ -182,9 +185,7 @@
     .menu{
     height: unset;
     }
-    html{
-      overflow: auto;
-    }
+    
     #nav-list > li
     {
       text-align:center;
